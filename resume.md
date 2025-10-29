@@ -1,9 +1,9 @@
-    ---
-    title: Resume of Prince Cheruvathur
-    date: 2025-10-29
-    layout: page
-    permalink: /resume
-    ---
+---
+title: Resume of Prince Cheruvathur
+date: 2025-10-29
+layout: page
+permalink: /resume
+---
 
 📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/prncher) | 📞 (425) 540-7950  
 
