@@ -1,11 +1,3 @@
-# prncher.github.io
-
----
-layout: default
-title: "Resume | Prince Cheruvathur"
-permalink: /resume/
----
-
 # **Prince Cheruvathur**
 
 📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/prncher) | 📞 (425) 540-7950  
