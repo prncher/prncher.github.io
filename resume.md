@@ -1,5 +1,5 @@
 layout: page
-title: "PAGE-TITLE"
+title: "Resume of Prince Cheruvathur"
 permalink: /resume
 
 
@@ -34,6 +34,7 @@ Proven track record in delivering end-to-end solutions across **AWS** and **Azur
 Exploring advanced areas in software engineering — writing technical articles and developing open-source repositories.  
 
 ### **Articles & Repositories**
+- [From FastAPI to C++: Real-Time Python Code Streaming with GPT-OSS 20B](https://www.linkedin.com/pulse/from-fastapi-c-real-time-python-code-streaming-20b-prince-cheruvathur-j83te)
 - [Building Multi-Chat AI Client (Angular 20.3 + FastAPI + Llama3.1 20B)](https://www.linkedin.com/pulse/building-multi-chat-ai-client-angular-203-fastapi-20b-cheruvathur-rpxvc)  
 - [Building Retrieval-Augmented Generation (RAG) Pipeline](https://www.linkedin.com/pulse/building-retrieval-augmented-generation-rag-pipeline-cheruvathur-wqqyc)  
 - [Building MCP System (Streamable HTTP + Ollama + Selenium)](https://www.linkedin.com/pulse/building-mcp-system-streamable-http-ollama-selenium-cheruvathur-a8m9c)  
@@ -53,7 +54,7 @@ Exploring advanced areas in software engineering — writing technical articles 
 *Mar 2025 – Jun 2025*  
 - Built **Python/FastAPI** web services for I18N with **CosmosDB/MongoDB**, deployed on **Azure Functions**.  
 - Developed a frontend with **Material UI**, **React Hook Form**, **Zod**, and **ReactJS** for supply chain management.  
-- Created a React + Tailwind CSS client implementing **OAuth2/SAML/MSAL** authentication; automated **CI/CD via GitHub Actions** and deployed to **Azure Static Web Apps (SWA)**.
+- Created a React + Tailwind CSS client and Service provider implementing **OAuth2/SAML/MSAL/EntraID** authentication; automated **CI/CD via GitHub Actions** and deployed to **Azure Static Web Apps (SWA) and Azure Function**.
 
 ---
 
