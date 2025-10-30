@@ -1,11 +1,11 @@
 ---
-title: Resume of Prince Cheruvathur
+title: Resume of serif Cheruvathur
 date: 2025-10-29
 layout: page
 permalink: /resume
 ---
 
-📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/prince-c-aa63699/) | 📞 (425) 540-7950  
+📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/serif-c-aa63699/) | 📞 (425) 540-7950  
 
 ---
 
@@ -36,7 +36,7 @@ Proven track record in delivering end-to-end solutions across **AWS** and **Azur
 Exploring advanced areas in software engineering — writing technical articles and developing open-source repositories.  
 
 ### **Articles & Repositories**
-- [From FastAPI to C++: Real-Time Python Code Streaming with GPT-OSS 20B](https://www.linkedin.com/pulse/from-fastapi-c-real-time-python-code-streaming-20b-prince-cheruvathur-j83te)
+- [From FastAPI to C++: Real-Time Python Code Streaming with GPT-OSS 20B](https://www.linkedin.com/pulse/from-fastapi-c-real-time-python-code-streaming-20b-serif-cheruvathur-j83te)
 - [Building Multi-Chat AI Client (Angular 20.3 + FastAPI + Llama3.1 20B)](https://www.linkedin.com/pulse/building-multi-chat-ai-client-angular-203-fastapi-20b-cheruvathur-rpxvc)  
 - [Building Retrieval-Augmented Generation (RAG) Pipeline](https://www.linkedin.com/pulse/building-retrieval-augmented-generation-rag-pipeline-cheruvathur-wqqyc)  
 - [Building MCP System (Streamable HTTP + Ollama + Selenium)](https://www.linkedin.com/pulse/building-mcp-system-streamable-http-ollama-selenium-cheruvathur-a8m9c)  

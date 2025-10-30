@@ -1,5 +1,5 @@
 layout: page
-title: "Resume of Prince Cheruvathur"
+title: "Resume of serif Cheruvathur"
 permalink: /resumes/
 
 Hello

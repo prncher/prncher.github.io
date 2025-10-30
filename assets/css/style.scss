@@ -3,5 +3,5 @@
 ---
 
 @import
-  "prince/skins/{{ site.prince.skin | default: 'dark' }}",
-  "prince/initialize";
+  "serif/skins/{{ site.serif.skin | default: 'dark' }}",
+  "serif/initialize";

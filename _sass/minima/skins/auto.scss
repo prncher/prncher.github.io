@@ -260,92 +260,92 @@ $table-border-color: $lm-table-border-color;
   // Auto mode
 
   :root {
-    --prince-brand-color: #{$lm-brand-color};
-    --prince-brand-color-light: #{$lm-brand-color-light};
-    --prince-brand-color-dimmed: #{$lm-brand-color-dimmed};
-    --prince-brand-color-dark: #{$lm-brand-color-dark};
+    --serif-brand-color: #{$lm-brand-color};
+    --serif-brand-color-light: #{$lm-brand-color-light};
+    --serif-brand-color-dimmed: #{$lm-brand-color-dimmed};
+    --serif-brand-color-dark: #{$lm-brand-color-dark};
 
-    --prince-site-title-color: #{$lm-site-title-color};
+    --serif-site-title-color: #{$lm-site-title-color};
 
-    --prince-heading-color: #{$lm-heading-color};
-    --prince-text-color: #{$lm-text-color};
-    --prince-background-color: #{$lm-background-color};
-    --prince-code-background-color: #{$lm-code-background-color};
+    --serif-heading-color: #{$lm-heading-color};
+    --serif-text-color: #{$lm-text-color};
+    --serif-background-color: #{$lm-background-color};
+    --serif-code-background-color: #{$lm-code-background-color};
 
-    --prince-link-base-color: #{$lm-link-base-color};
-    --prince-link-visited-color: #{$lm-link-visited-color};
-    --prince-link-hover-color: #{$lm-link-hover-color};
+    --serif-link-base-color: #{$lm-link-base-color};
+    --serif-link-visited-color: #{$lm-link-visited-color};
+    --serif-link-hover-color: #{$lm-link-hover-color};
 
-    --prince-border-color-01: #{$lm-border-color-01};
-    --prince-border-color-02: #{$lm-border-color-02};
-    --prince-border-color-03: #{$lm-border-color-03};
+    --serif-border-color-01: #{$lm-border-color-01};
+    --serif-border-color-02: #{$lm-border-color-02};
+    --serif-border-color-03: #{$lm-border-color-03};
 
-    --prince-table-text-color: #{$lm-table-text-color};
-    --prince-table-zebra-color: #{$lm-table-zebra-color};
-    --prince-table-header-bg-color: #{$lm-table-header-bg-color};
-    --prince-table-header-border: #{$lm-table-header-border};
-    --prince-table-border-color: #{$lm-table-border-color};
+    --serif-table-text-color: #{$lm-table-text-color};
+    --serif-table-zebra-color: #{$lm-table-zebra-color};
+    --serif-table-header-bg-color: #{$lm-table-header-bg-color};
+    --serif-table-header-border: #{$lm-table-header-border};
+    --serif-table-border-color: #{$lm-table-border-color};
   }
 
   @include lm-highlight;
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --prince-brand-color: #{$dm-brand-color};
-      --prince-brand-color-light: #{$dm-brand-color-light};
-      --prince-brand-color-dimmed: #{$dm-brand-color-dimmed};
-      --prince-brand-color-dark: #{$dm-brand-color-dark};
+      --serif-brand-color: #{$dm-brand-color};
+      --serif-brand-color-light: #{$dm-brand-color-light};
+      --serif-brand-color-dimmed: #{$dm-brand-color-dimmed};
+      --serif-brand-color-dark: #{$dm-brand-color-dark};
 
-      --prince-site-title-color: #{$dm-site-title-color};
+      --serif-site-title-color: #{$dm-site-title-color};
 
-      --prince-heading-color: #{$dm-heading-color};
-      --prince-text-color: #{$dm-text-color};
-      --prince-background-color: #{$dm-background-color};
-      --prince-code-background-color: #{$dm-code-background-color};
+      --serif-heading-color: #{$dm-heading-color};
+      --serif-text-color: #{$dm-text-color};
+      --serif-background-color: #{$dm-background-color};
+      --serif-code-background-color: #{$dm-code-background-color};
 
-      --prince-link-base-color: #{$dm-link-base-color};
-      --prince-link-visited-color: #{$dm-link-visited-color};
-      --prince-link-hover-color: #{$dm-link-hover-color};
+      --serif-link-base-color: #{$dm-link-base-color};
+      --serif-link-visited-color: #{$dm-link-visited-color};
+      --serif-link-hover-color: #{$dm-link-hover-color};
 
-      --prince-border-color-01: #{$dm-border-color-01};
-      --prince-border-color-02: #{$dm-border-color-02};
-      --prince-border-color-03: #{$dm-border-color-03};
+      --serif-border-color-01: #{$dm-border-color-01};
+      --serif-border-color-02: #{$dm-border-color-02};
+      --serif-border-color-03: #{$dm-border-color-03};
 
-      --prince-table-text-color: #{$dm-table-text-color};
-      --prince-table-zebra-color: #{$dm-table-zebra-color};
-      --prince-table-header-bg-color: #{$dm-table-header-bg-color};
-      --prince-table-header-border: #{$dm-table-header-border};
-      --prince-table-border-color: #{$dm-table-border-color};
+      --serif-table-text-color: #{$dm-table-text-color};
+      --serif-table-zebra-color: #{$dm-table-zebra-color};
+      --serif-table-header-bg-color: #{$dm-table-header-bg-color};
+      --serif-table-header-border: #{$dm-table-header-border};
+      --serif-table-border-color: #{$dm-table-border-color};
     }
 
     @include dm-highlight;
   }
 
-  $brand-color: var(--prince-brand-color);
-  $brand-color-light: var(--prince-brand-color-light);
-  $brand-color-dimmed: var(--prince-brand-color-dimmed);
-  $brand-color-dark: var(--prince-brand-color-dark);
+  $brand-color: var(--serif-brand-color);
+  $brand-color-light: var(--serif-brand-color-light);
+  $brand-color-dimmed: var(--serif-brand-color-dimmed);
+  $brand-color-dark: var(--serif-brand-color-dark);
 
-  $site-title-color: var(--prince-site-title-color);
+  $site-title-color: var(--serif-site-title-color);
 
-  $heading-color: var(--prince-heading-color);
-  $text-color: var(--prince-text-color);
-  $background-color: var(--prince-background-color);
-  $code-background-color: var(--prince-code-background-color);
+  $heading-color: var(--serif-heading-color);
+  $text-color: var(--serif-text-color);
+  $background-color: var(--serif-background-color);
+  $code-background-color: var(--serif-code-background-color);
 
-  $link-base-color: var(--prince-link-base-color);
-  $link-visited-color: var(--prince-link-visited-color);
-  $link-hover-color: var(--prince-link-hover-color);
+  $link-base-color: var(--serif-link-base-color);
+  $link-visited-color: var(--serif-link-visited-color);
+  $link-hover-color: var(--serif-link-hover-color);
 
-  $border-color-01: var(--prince-border-color-01);
-  $border-color-02: var(--prince-border-color-02);
-  $border-color-03: var(--prince-border-color-03);
+  $border-color-01: var(--serif-border-color-01);
+  $border-color-02: var(--serif-border-color-02);
+  $border-color-03: var(--serif-border-color-03);
 
-  $table-text-color: var(--prince-table-text-color);
-  $table-zebra-color: var(--prince-table-zebra-color);
-  $table-header-bg-color: var(--prince-table-header-bg-color);
-  $table-header-border: var(--prince-table-header-border);
-  $table-border-color: var(--prince-table-border-color);
+  $table-text-color: var(--serif-table-text-color);
+  $table-zebra-color: var(--serif-table-zebra-color);
+  $table-header-bg-color: var(--serif-table-header-bg-color);
+  $table-header-border: var(--serif-table-header-border);
+  $table-border-color: var(--serif-table-border-color);
 
 
 } @else if $color-scheme-dark {
