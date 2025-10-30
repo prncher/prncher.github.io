@@ -5,6 +5,8 @@ layout: page
 permalink: /resume
 ---
 
+# **Prince Cheruvathur**
+
 📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/prince-c-aa63699/) | 📞 (425) 540-7950  
 
 ---

@@ -1,53 +1,71 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-        <ul>
-          <li><a href="https://www.linkedin.com/pulse/from-fastapi-c-real-time-python-code-streaming-20b-prince-cheruvathur-j83te">From FastAPI to C++: Real-Time Python Code Streaming with GPT-OSS 20B</a></li>
-        </ul>
+  {% include head-custom.html %}
+</head>
 
-        <ul>
-          {% if site.show_downloads %}
-            <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
-            <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
-          {% endif %}
-          <li><a class="buttons github" href="{{ site.github.repository_url }}">My resume</a></li>
-        </ul>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+      <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      <ul>
+        {% if site.show_downloads %}
+        <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
+        <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
         {% endif %}
+        <li><a class="buttons github" href="{{ site.github.repository_url }}">My resume</a></li>
+      </ul>
 
-        {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">Prince's GitHub Profile</a></li>
-          </ul>
-        {% endif %}
-      </header>
+      {% if site.github.is_project_page %}
+      <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{
+          site.github.owner_name }}</a></p>
+      {% endif %}
 
-      <section>
-        {{ content }}
-      </section>
+      {% if site.github.is_user_page %}
+      <ul>
+        <li><a class="buttons github" href="{{ site.github.owner_url }}">Prince's GitHub Profile</a></li>
+      </ul>
+      {% endif %}
+      <ul>
+        <li><a
+            href="https://www.linkedin.com/pulse/from-fastapi-c-real-time-python-code-streaming-20b-prince-cheruvathur-j83te">From
+            FastAPI to C++: Real-Time Python Code Streaming with GPT-OSS 20B</a></li>
+        <li><a
+            href="https://www.linkedin.com/pulse/building-multi-chat-ai-client-angular-203-fastapi-20b-cheruvathur-rpxvc">Building
+            Multi-Chat AI Client (Angular 20.3 + FastAPI + Llama3.1 20B)</a></li>
+        <li><a
+            href="https://www.linkedin.com/pulse/building-retrieval-augmented-generation-rag-pipeline-cheruvathur-wqqyc">Building
+            Retrieval-Augmented Generation (RAG) Pipeline</a></li>
+        <li><a
+            href="https://www.linkedin.com/pulse/building-mcp-system-streamable-http-ollama-selenium-cheruvathur-a8m9c">Building
+            MCP System (Streamable HTTP + Ollama + Selenium)</a></li>
+        <li><a
+            href="https://www.linkedin.com/pulse/graphql-implementation-weather-app-using-angular-18-cheruvathur-mhj5c">GraphQL
+            Implementation: Weather App (Angular 18)</a></li>
+      </ul>
+    </header>
 
-      <footer>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-  </body>
+    <section>
+      {{ content }}
+    </section>
+
+    <footer>
+    </footer>
+  </div>
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+
 </html>
