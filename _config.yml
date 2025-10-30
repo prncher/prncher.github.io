@@ -1,4 +1,4 @@
-remote_theme: zerostaticthemes/jekyll-serif
+theme: jekyll-theme-chirpy
 title: Prince Cheruvathur
 description: My projects and miscellaneous items
 baseurl: "/about"
