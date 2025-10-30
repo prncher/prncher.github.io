@@ -35,5 +35,6 @@ $on-large:         $on-laptop !default;
 // Import pre-styling-overrides hook and style-partials.
 @import
   "serif/base",             // Defines element resets.
-  "serif/layout"           // Defines structure and style based on CSS selectors.
+  "serif/layout",           // Defines structure and style based on CSS selectors.
+  "serif/custom"
 ;
