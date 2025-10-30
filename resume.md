@@ -5,7 +5,7 @@ layout: page
 permalink: /resume
 ---
 
-📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/prncher) | 📞 (425) 540-7950  
+📍 Seattle, WA | ✉️ [prncher@gmail.com](mailto:prncher@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/prince-c-aa63699/) | 📞 (425) 540-7950  
 
 ---
 
