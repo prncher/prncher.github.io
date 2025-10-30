@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Prince Cheruvathur
 description: My projects and miscellaneous items
-baseurl: "/resume"
+baseurl: "/about"
 url: "https://prncher.github.io"
 markdown: kramdown
